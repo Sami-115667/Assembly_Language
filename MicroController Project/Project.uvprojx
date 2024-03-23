@@ -260,17 +260,17 @@
                 <Size>0x0</Size>
               </XRAM>
               <OCR_RVCT1>
-                <Type>0</Type>
+                <Type>1</Type>
                 <StartAddress>0x0</StartAddress>
                 <Size>0x0</Size>
               </OCR_RVCT1>
               <OCR_RVCT2>
-                <Type>0</Type>
+                <Type>1</Type>
                 <StartAddress>0x0</StartAddress>
                 <Size>0x0</Size>
               </OCR_RVCT2>
               <OCR_RVCT3>
-                <Type>0</Type>
+                <Type>1</Type>
                 <StartAddress>0x0</StartAddress>
                 <Size>0x0</Size>
               </OCR_RVCT3>
@@ -280,7 +280,7 @@
                 <Size>0x80000</Size>
               </OCR_RVCT4>
               <OCR_RVCT5>
-                <Type>0</Type>
+                <Type>1</Type>
                 <StartAddress>0x0</StartAddress>
                 <Size>0x0</Size>
               </OCR_RVCT5>
@@ -400,14 +400,14 @@
               <FilePath>.\GPIO.c</FilePath>
             </File>
             <File>
-              <FileName>SYS_INIT.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\SYS_INIT.c</FilePath>
-            </File>
-            <File>
               <FileName>USART.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\USART.c</FilePath>
+            </File>
+            <File>
+              <FileName>SYS_INIT.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\SYS_INIT.c</FilePath>
             </File>
           </Files>
         </Group>

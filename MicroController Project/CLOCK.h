@@ -34,9 +34,12 @@
 extern "C" {
 #endif
 #include <stdint.h>
-#define PLL_M 4
-#define PLL_N 180
+#define PLL_M 8
+#define PLL_N 280
 #define PLL_P 0 //0 to the sixteenth position (PLL=2)
+
+
+//The clock is cofigured in 140 MHz.
 
 /**
 * Must use for clock configuration. System Clock speed is 180 MHz

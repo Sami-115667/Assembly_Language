@@ -116,7 +116,7 @@ void UART2_Config(void){
 	RCC->AHB1ENR |= (1<<0); //enable GPIOA clock
 	
 		
-	//2. Configure UART pin for Alternate function
+	//2. Configure UART pin for Alternate function  
 	GPIOA->MODER |= (2<<4); //bits [5:4] -> 1:0 -->Alternate function for pin PA2
 	GPIOA->MODER |= (2<<6); //bits [7:6] -> 1:0 -->Alternate function for PA3
 	 
@@ -133,7 +133,7 @@ void UART2_Config(void){
 	USART2->CR1 &= ~(1U<<12); // set M bit  = 0 for 8-bit word length
 	
 	//5. Select the baud rate using the USART_BRR register.
-	USART2->BRR |= (7<<0) | (24<<4); //115200
+	USART2->BRR |= (0<<0) | (19<<4); //115200
 	
 	//  6. Enable transmission TE and recieption bits in USART_CR1 register
 	USART2->CR1 |= (1<<2); // enable RE for receiver 
